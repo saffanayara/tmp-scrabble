@@ -1,0 +1,55 @@
++--------------------------------------------------------------------------+
+Cara memulai permainan:
+1. Pada Menu Utama, ketik angka [1] untuk memulai permainan
+2. Input nama player 1 dan player 2
+   *Catatan player 1 akan memulai permainan terlebih dahulu
+3. Pilih level permainan. Level permainan mempengaruhi batas waktu berpikir.
+   Mudah  : 75 detik
+   Sedang : 60 detik
+   Sulit  : 45 detik
++--------------------------------------------------------------------------+
+
++--------------------------------------------------------------------------+
+Cara menginput kata:
+1. Pilih posisi kata yang akan dibentuk. 
+   Ketik angka [1] jika posisi kata Horizontal
+   Ketik angka [2] jika posisi kata Vertikal
+2. Ketik posisi awal kata yang akan dibaca.
+   Ketik koordinat baris terlebih dahulu dilanjutkan koordinat kolom
+   dipisah oleh spasi. Setelah selesai tekan enter.
+3. Ketik posisi akhir kata yang akan dibaca.
+   Ketik koordinat baris terlebih dahulu dilanjutkan koordinat kolom
+   dipisah oleh spasi. Setelah selesai tekan enter.
+4. Ketik kata yang ingin diinput. Jika sudah terdapat huruf lain pada papan,
+   pemain hanya perlu menginputkan huruf sisa agar terbentuk suatu kata.
+   Setelah selesai tekan enter.
++--------------------------------------------------------------------------+
+
++--------------------------------------------------------------------------+
+Aturan permainan:
+1. Setiap pemain dapat menginput kata selama waktu berpikir belum melewati
+   batas. Jika pemain menginput kata melebihi waktu berpikir, maka input 
+   kata pemain dianggap hangus. Skor pemain tidak akan bertambah dan 
+   permainan dilanjutkan olehpemain lain.
+2. Khusus untuk kata pertama, inputan kata harus melalui kotak bintang.
+3. Inputan kata pemain harus bersambung dengan huruf yang sudah ada di papan
+   sebelumnya.
+4. Jika posisi kata yang dipilih pemain Horizontal, maka baris awal dan
+   baris akhir harus sama. Jika posisi kata yang dipilih pemain Vertikal,
+   maka kolom awal dan kolom akhir harus sama.
+5. Semua kata yang bersambung harus terdapat di dalam kamus. Jika ada
+   satu kata yang tidak terdapat dalam kamus, maka inputan player dinyatakan
+   gagal.
++--------------------------------------------------------------------------+
+
++--------------------------------------------------------------------------+
+Informasi poin huruf:
+0 poin : ! (bisa diisi huruf apa saja)
+1 poin : A, N, E, I, U, T, R, O, S
+2 poin : K, M
+3 poin : D, G
+4 poin : L, H, P
+5 poin : B, Y, F, V
+8 poin : C, W
+10 poin: J, Z
++--------------------------------------------------------------------------+
